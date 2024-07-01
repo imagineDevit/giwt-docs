@@ -1,0 +1,64 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Giwt
+extra_css:
+  - stylesheets/extra.css
+copyright: Copyright &copy; 2024 Henri Joel SEDJAME
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/imagineDevit
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/filigrane.png
+  icon:
+    admonition:
+        info: octicons/info-16
+        note: material/pencil-circle
+        warning: octicons/alert-fill-12
+        question: fontawesome/regular/circle-question
+        tip: material/fountain-pen-tip
+
+
+  palette:
+    primary: custom
+    accent: blue grey
+  features:
+    - navigation.footer
+    - content.code.annotate
+    - content.tooltips
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+
+
+nav:
+  - 💬 Introduction: 'index.md'
+  - ⚗️ TestCase: 'testCase.md'
+  - 📋 Statements: 'statements.md'
+  - 🤞 Expectations: 'expectations.md'
+  - Parameterized Tests: 'parameterizedTest.md'
+  - Extensions: 'extensions.md'
+  - Configuration: 'configuration.md'
+  - Test report: 'testReport.md'
+
