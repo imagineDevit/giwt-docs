@@ -28,6 +28,7 @@ theme:
     - navigation.footer
     - content.code.annotate
     - content.tooltips
+    - content.tabs.link
 markdown_extensions:
   - abbr
   - attr_list
@@ -36,6 +37,9 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
