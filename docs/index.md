@@ -23,6 +23,7 @@ But depending on the sensitivity of the developer, setting up tests with these l
 Here is a simple example of a test written in `Giwt`:
 
 === "Java"
+    
     ````java
     @Test("Parse '123' to integer should give 123")
     void testParse(TestCase<String, Integer> testCase) {
@@ -33,6 +34,7 @@ Here is a simple example of a test written in `Giwt`:
     }
     ````
 === "Kotlin"
+    
     ````kotlin  
     @Test("Parse '123' to integer should give 123")
     fun testParse(testCase: TestCase<String, Int>) {
@@ -49,6 +51,7 @@ _Note that the test method takes a `TestCase` parameter. It is the fundamental c
 
 
 === "Java"
+
     [![Maven Central](https://img.shields.io/maven-central/v/io.github.imagineDevit/giwt)](https://central.sonatype.com/artifact/io.github.imagineDevit/giwt/overview)
 
     Add the following dependency to your `pom.xml` file:
@@ -61,7 +64,9 @@ _Note that the test method takes a `TestCase` parameter. It is the fundamental c
         <scope>test</scope>
     </dependency>
     ````
+
 === "Kotlin"
+
     [![Maven Central](https://img.shields.io/maven-central/v/io.github.imagineDevit/giwt-kt)](https://central.sonatype.com/artifact/io.github.imagineDevit/giwt-kt/overview)
 
     Add the following dependency to your `pom.xml` file:
