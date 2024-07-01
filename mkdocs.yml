@@ -61,8 +61,5 @@ nav:
   - ⚗️ TestCase: 'testCase.md'
   - 📋 Statements: 'statements.md'
   - 🤞 Expectations: 'expectations.md'
-  - Parameterized Tests: 'parameterizedTest.md'
-  - Extensions: 'extensions.md'
-  - Configuration: 'configuration.md'
-  - Test report: 'testReport.md'
+
 
