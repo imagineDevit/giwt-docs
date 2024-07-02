@@ -1,0 +1,15 @@
+:root {
+    --md-primary-fg-color: #282728;
+    --md-primary-fg-color--light: #282728;
+    --md-primary-fg-color--dark: #282728;
+}
+
+.text-blue {
+    color: #2196F3;
+}
+
+.text-gray {
+    color: dimgray;
+    font-weight: 500;
+    font-style: italic;
+}
